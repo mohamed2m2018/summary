@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>index</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/index.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
-    <script src="main.js"></script>
 </head>
 <body>
 <div class="container"> 
@@ -40,14 +39,14 @@
     <form action="results.php" method="GET">
 
         <input id="search" type="text" name ="search" placeholder="search for summaries ">
-        <input id="submit" type="image" src="interface.png" alt="submit">
+        <input id="submit" type="image" src="styles/interface.png" alt="submit">
 
     </form>
 
 <h1>or</h1>
 
 <div class="button-div"style="text-align:center;">
-    <button  type="button"  class="btn btn-dark btn-lg">Add summary</button>
+    <button onclick="location.href='add_summary.php';" type="button"  class="btn btn-dark btn-lg">Add summary</button>
 </div>
 </div>  
 </body>
